@@ -12,3 +12,6 @@
 * 7.渲染data数据
 
 #### 从excel表格导入数据
+* 1.引用
+* 2.首先，创建一个excel模板（template/test1.xlsx)；
+* 3.获取数据；
