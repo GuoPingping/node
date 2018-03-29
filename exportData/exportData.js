@@ -1,6 +1,6 @@
 // 导出数据到excel表格
-var ejsExcel = require('ejsexcel'); //引入ejsExcel库<br>
-var fs = require("fs"); //加载fs库<br>
+var ejsExcel = require('ejsexcel'); //引入ejsExcel库
+var fs = require("fs"); //加载fs库
 var path = require("path")
 
 router.get('/exportData', async(ctx) => {
