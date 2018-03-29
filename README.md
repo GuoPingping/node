@@ -1,8 +1,8 @@
-nodeJS
+NodeJS知识点总结
 ====
-author: GuoPingping
+Author: GuoPingping
 -----------------------
-address: https://github.com/guopingping/node
+Address: https://github.com/guopingping/node
 ---------------------------------------------
 ### 目录
 #### 一、nodeJS导入导出
