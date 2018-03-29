@@ -8,7 +8,7 @@
 >>  var fs = require("fs");//加载fs库<br>
 >>  var path = require("path")<br>
 * 2.首先，创建一个excel模板（template/test.xlsx)；
->> var model_name = "进出记录.xlsx"; //模板
+>> var model_name = "test.xlsx"; //模板
 * 3.获取下载导出的模板路径；
 >> var pathTemplate = path.join(path.dirname(__dirname).replace('controllers', '') + '\\template\\' + model_name);
 * 4.判断路径是否存在；(主要针对Windows系统和苹果系统路径不一致所做出的的判断方法)
