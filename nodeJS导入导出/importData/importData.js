@@ -10,7 +10,6 @@ router.post('/importData', async(ctx) => {
     let workBook = exlJson;
     let workSheets = workBook[0];
 
-
     workSheets.forEach((item, index) => {
         console.log((index + 1) + " row:" + item.join('    '));
         ctx.body = jsonUtil.returnSuccessJson("导入成功！");
