@@ -16,7 +16,7 @@
 >>>>        [{"num":1,"name":小石,"age":10},
 >>>>        {"num":2,"name":小李,"age":11},
 >>>>        {"num":3,"name":小郭,"age":12},
->>>>        {"num":4,"name":小孙,"age":13}
+>>>>        {"num":4,"name":小孙,"age":13}]
 >>    ]
 * 7.渲染data数据
 >>    var exlBuf2 = await ejsExcel.renderExcel(exlBuf, data);<br>
