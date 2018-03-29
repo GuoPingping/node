@@ -1,0 +1,17 @@
+{
+    "author": "GuoPingping",
+    "homepage": "https://github.com/guopingping/node",
+    "bugs": {
+        "url": "https://github.com/guopingping/node",
+        "email": "2474986040@qq.com"
+    },
+    "keywords": [
+        "ejsexcel",
+        "nodeJS",
+        "excel"
+    ],
+    "name": "ejsexcel",
+    "version": "3.4.9",
+    "main": "ejsExcel",
+    "readme": "README.md"
+}
