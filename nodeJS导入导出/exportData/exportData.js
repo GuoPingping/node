@@ -17,7 +17,6 @@ router.get('/exportData', async(ctx) => {
         ]
     ]
 
-
     var exlBuf2 = await ejsExcel.renderExcel(exlBuf, data);
     data = new Buffer(exlBuf2, 'binary');
     ctx.res.setHeader('Content-Type', 'application/vnd.openxmlformats');
