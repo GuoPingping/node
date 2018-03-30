@@ -4,6 +4,7 @@ var sinon = require('sinon');
 var expect = require('chai').expect;
 var assert = require('chai').assert;
 
+
 describe('getTotal test ==>service_controllers.js', function() {
     const params = {
         Timestamp: '1521078200336',
