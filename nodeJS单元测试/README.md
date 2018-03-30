@@ -28,7 +28,7 @@
 ### 5、环境搭建
 * 配置npm
     * 初始化项目的package.json，并将所需要的工具安装在项目中
-        * 安装插件：
+        * 安装插件：<br>
             npm install -g karma-cli //安装karma-cli<br>
             npm install -g mocha --save-dev //单元测试框架<br>
             npm install -g chai --save-dev //测试用例断言库<br>
