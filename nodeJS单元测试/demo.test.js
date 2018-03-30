@@ -5,6 +5,7 @@ function add(x, y) {
     return x + y;
 }
 
+
 var foo = { bar: 'baz' };
 
 describe('test demo', function() {
