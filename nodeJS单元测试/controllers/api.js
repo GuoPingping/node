@@ -19,8 +19,6 @@ for (const service_path of axios_vuePath.vuePath) {
     router.all(service_path.vuePath, stringUtil.loadRoutes(system_service, axios_vuePath.serviceBasePath, service_path));
 }
 
-
-
 //查询
 router.get('/searchData', async(ctx) => {
     var cardData = await axios.setAxiosGetPromise(system_service.dns + '/service/tenant/cardManagement/searchData', ctx.query)
