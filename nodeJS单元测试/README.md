@@ -100,3 +100,13 @@
 > istanbul cover _mocha<br>
 指定文件进行测试<br>
 > istanbul cover _mocha -- tests/test.sqrt.js -R spec
+
+
+------------------------------------------------------------------------
+#### 相关知识点链接：
+* http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html
+* http://www.mamicode.com/info-detail-65206.html
+* https://www.jianshu.com/p/f200a75a15d2
+* https://mochajs.org/
+* http://www.ruanyifeng.com/blog/2015/06/istanbul.html
+* https://www.jianshu.com/p/9c78548caffa
