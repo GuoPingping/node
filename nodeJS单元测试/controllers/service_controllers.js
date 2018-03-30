@@ -21,4 +21,5 @@ serviceControllers.prototype.getTotal = async function(data) {
     return await common.count(table_name, params)
 }
 
+
 module.exports = new serviceControllers();
