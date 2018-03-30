@@ -1,0 +1,5 @@
+--reporter spec
+--recursive
+--growl
+-t 10000
+-s 500
