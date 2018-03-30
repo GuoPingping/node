@@ -29,10 +29,10 @@
 * 配置npm
     * 初始化项目的package.json，并将所需要的工具安装在项目中
         * 安装插件：
-            npm install -g karma-cli //安装karma-cli
-            npm install -g mocha --save-dev //单元测试框架
-            npm install -g chai --save-dev //测试用例断言库
-            npm install -g karma --save //karma安装
+            npm install -g karma-cli //安装karma-cli<br>
+            npm install -g mocha --save-dev //单元测试框架<br>
+            npm install -g chai --save-dev //测试用例断言库<br>
+            npm install -g karma --save //karma安装<br>
 * 初始化Karma配置文件
     * 在项目根目录运行：karma init //初始化karma配置文件
     * 选择使用的测试框架
@@ -51,31 +51,31 @@
     mocha test/demo.test.js
 * 通配符
     命令行指定测试脚本时，可以使用通配符，同时指定多个文件
-    > mocha spec/{my,awesome}.js
-    > mocha test/unit/*.js
-    除了使用shell通配符，还可以使用Node通配符
+    > mocha spec/{my,awesome}.js<br>
+    > mocha test/unit/*.js<br>
+    除了使用shell通配符，还可以使用Node通配符<br>
     > mocha 'test/**/*.@(js|jsx)'
 * 命令行参数
-    查看所有mocha命令参数
-    > mocha -help
-    指定测试报告格式，默认是spec格式
-    > mocha --reporter spec
-    > mocha --reporter tap
-    查看所有报告格式
-    > mocha --reporters
-    默认2000毫秒报超时错误，可以使用t指定超时时间
-    > mocha -t 5000 test/demo.test.js 
+    查看所有mocha命令参数<br>
+    > mocha -help<br>
+    指定测试报告格式，默认是spec格式<br>
+    > mocha --reporter spec<br>
+    > mocha --reporter tap<br>
+    查看所有报告格式<br>
+    > mocha --reporters<br>
+    默认2000毫秒报超时错误，可以使用t指定超时时间<br>
+    > mocha -t 5000 test/demo.test.js<br> 
 * 使用mochawesome，可以生成漂亮的HTML格式的报告
-    mochawesome模块是安装在项目内并在项目中生成的文件，安装命令
-    > cnpm install --save-dev mochawesome
+    mochawesome模块是安装在项目内并在项目中生成的文件，安装命令<br>
+    > cnpm install --save-dev mochawesome<br>
 * 浏览器测试
-    除了在命令行运行，mocha还可以在浏览器中运行，初始化html文件：
-    > mocha init test/demo 
+    除了在命令行运行，mocha还可以在浏览器中运行，初始化html文件：<br>
+    > mocha init test/demo <br>
 * 生成规格文件
-    Mocha支持从测试用例生成规格文件
-    > mocha --recursive -R markdown > spec.md
-    如果想生成HTML格式的报告spec.html，使用下面的命令：
-    > mocha --recursive -R doc > spec.html
+    Mocha支持从测试用例生成规格文件<br>
+    > mocha --recursive -R markdown > spec.md<br>
+    如果想生成HTML格式的报告spec.html，使用下面的命令：<br>
+    > mocha --recursive -R doc > spec.html<br>
 
 ------------------------------------------------------------------------
 
@@ -97,6 +97,6 @@
 > cnpm install -g istanbul
 
 2. 运行
-> istanbul cover _mocha
-指定文件进行测试
+> istanbul cover _mocha<br>
+指定文件进行测试<br>
 > istanbul cover _mocha -- tests/test.sqrt.js -R spec
