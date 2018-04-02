@@ -1,0 +1,1 @@
+var fs = require("fs") //公共引用
