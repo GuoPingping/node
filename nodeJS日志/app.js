@@ -1,5 +1,5 @@
 //log工具
-const logUtil = require('./utils/logUtil');
+const logUtil = require('logUtil');
 
 //记录日志
 app.use(async(ctx, next) => {
