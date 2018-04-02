@@ -14,3 +14,25 @@ var responsePath = "/response"
 var responseFileName = "response.log";
 //响应日志输出完整路径
 var responseLogPath = baseLogPath + responsePath + "/" + responseFileName;
+
+module.exports = {
+    appenders: {
+        errorLogger: { //错误日志
+            "type": "file", //日志类型
+            "filename": errorLogPath, //日志输出位置
+            "maxLogSize": 1024 * 520,
+            "backups": 8
+        },
+        resLogger: { //响应日志
+            "type": "file",
+            "filename": responseLogPath,
+            "maxLogSize": 1024 * 1024 * 2,
+            "backups": 8
+        }
+    },
+    categories: {
+        default: { appenders: ['errorLogger'], level: 'error' },
+        errorLogger: { appenders: ['errorLogger'], level: 'error' },
+        resLogger: { appenders: ['resLogger'], level: 'info' }
+    }
+}
