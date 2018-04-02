@@ -135,12 +135,12 @@ console.log("==================文件删除=======================")
 console.log("==================文件删除结束=======================")
 
 console.log("==================创建目录=======================")
-fs.mkdir('test', function(err) {
-    if (err) {
-        console.log(err)
-    }
-    console.log("创建目录成功！")
-})
+    // fs.mkdir('test', function(err) {
+    //     if (err) {
+    //         console.log(err)
+    //     }
+    //     console.log("创建目录成功！")
+    // })
 console.log("==================创建目录结束=======================")
 
 console.log("==================读取目录=======================")
@@ -160,3 +160,35 @@ console.log("==================删除目录=======================")
     //     console.log("删除目录成功！")
     // })
 console.log("==================删除目录结束=======================")
+
+console.log("==================判断文件是否存在=======================")
+    //fs.exists(path, callback); 
+    /** * path, 要查看目录/文件的完整路径及名； 
+     * * [callback(exists)], 操作完成回调函数；exists true存在，false表示不存在 */
+fs.exists('/text', function(exists) {
+    var retTxt = exists ? retTxt = '文件存在' : '文件不存在';
+    console.log(retTxt);
+});
+console.log("==================判断文件是否存在结束=======================")
+
+console.log("==================创建读取流=======================")
+    //start指定文件开始读取位置；end指定文件开始读结束位置
+var rs = fs.createReadStream('test.txt', { start: 0, end: 2 });
+console.log("==================创建读取流结束=======================")
+
+console.log("==================创建写入流=======================")
+var ws = fs.createWriteStream('test.txt');
+console.log("==================创建写入流结束=======================")
+
+console.log("==================管道pipe实现流读写=======================")
+
+var rs = fs.createReadStream('test.txt');
+var ws = fs.createWriteStream('test.txt');
+rs.pipe(ws);
+rs.on('data', function(data) {
+    console.log('数据可读')
+});
+rs.on('end', function() {
+    console.log('文件读取完成'); //ws.end('再见') 
+});
+console.log("==================管道pipe实现流读写=======================")
