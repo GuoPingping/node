@@ -1,6 +1,7 @@
 {
     "name": "guopingping",
     "description": "nodeJS日志",
+    "version": "",
     "dependencies": {
         "log4js": "^2.5.3"
     }
