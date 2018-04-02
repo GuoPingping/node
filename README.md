@@ -9,4 +9,6 @@ Address: https://github.com/guopingping/node
 #### 二、nodeJS单元测试 (https://github.com/guopingping/NodeJS/tree/master/nodeJS单元测试)
 #### 三、nodeJS删除node_modules文件夹 (https://github.com/guopingping/NodeJS/tree/master/nodeJS删除node_modules文件夹)
 #### 四、nodeJS之fs模块 (https://github.com/guopingping/NodeJS/tree/master/nodeJS之fs模块)
+#### 五、nodeJS日志 (https://github.com/guopingping/NodeJS/tree/master/nodeJS日志)
+
 #### nodeJS API文档翻译
