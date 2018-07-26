@@ -11,3 +11,4 @@ Address: https://github.com/guopingping/node
 #### 四、nodeJS之fs模块 (https://github.com/guopingping/NodeJS/tree/master/nodeJS之fs模块)
 #### 五、nodeJS日志 (https://github.com/guopingping/NodeJS/tree/master/nodeJS日志)
 #### 六、nodeJS API V8.11.1文档翻译 (https://github.com/guopingping/NodeJS/tree/master/nodeJS文档翻译)
+#### 七、nodeJS知识点总结(https://github.com/guopingping/NodeJS/tree/master/nodeJS知识点总结)
