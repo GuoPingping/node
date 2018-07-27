@@ -2,6 +2,12 @@ nodeJS知识点总结
 =======================================================
 ```
     1. webpack的入门文件怎么配置，多个入口怎么分割？
+    ```
+        npm init 初始化项目文件，产生package.json文件
+        npm install -d webpack 本地局部安装webpack依赖
+        npm install -d webpack-dev-server 开发环境安装服务器热更新依赖
+        touch webpack.config.js 创建webpack.config.js配置文件
+    ```
     2. Babel插件，作用？
     3. webpack插件UglifyJsPlugin，压缩速度？提升压缩速度？
     4. http协议：200和304
